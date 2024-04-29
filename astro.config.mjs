@@ -6,6 +6,7 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
+  site: "https://myblog-kappa-roan.vercel.app/",
   integrations: [mdx(), sitemap()],
   output: "server",
   adapter: vercel(),
